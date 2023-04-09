@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png" alt=""></a>
+			<div class="nav-links" id='navLinks'>
+				<i class="fa fa-times" onclick='hideMenu()'></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick='showMenu()'></i>
+		</nav>
+		<h1>Our Certificate & Online Programs For 2023</h1>
+	</section>
+
+	<!-- blog page content -->
+
+	<section class='blog-content'>
+		<div class="row">
+			<div class="blog-left">
+				<img src="certificate.jpg" alt="">
+				<h2>Our Certificate & Online Programs For 2023</h2>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at exercitationem, maxime molestiae aut,
+					corporis sapiente doloribus hic culpa ipsa, optio debitis id neque laudantium. Possimus in vitae sapiente
+					error.
+				</p>
+				<br>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis fuga reprehenderit voluptatibus aliquid
+					doloribus vel, distinctio nisi impedit officia itaque quasi magni, vero recusandae accusantium nihil nemo quae
+					aspernatur qui fugiat repudiandae. Reiciendis quidem illum quod ducimus id enim tenetur aspernatur libero
+					porro? Natus laborum maxime, perspiciatis voluptas quia a eveniet nemo ad molestias rem quis veniam esse
+					assumenda placeat.
+				</p>
+				<br>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt saepe eveniet reiciendis, eum aut
+					adipisci, autem necessitatibus veritatis, asperiores dolorum inventore sed! Inventore reprehenderit laboriosam
+					iusto minima maiores in consequatur quo optio exercitationem at! Voluptas recusandae hic aut iste? Aspernatur
+					odio qui expedita molestiae odit ab eos provident ullam!
+				</p>
+				<br>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat esse ut officia distinctio recusandae
+					incidunt obcaecati nemo quasi quo! Quis ex cumque aspernatur debitis accusamus facere provident numquam
+					reprehenderit voluptas.
+				</p>
+
+				<div class="comment-box">
+					<h3>Leave a comment</h3>
+					<form class='comment-form'>
+						<input type="text" placeholder='Enter Name'>
+						<input type="email" placeholder='Enter Email'>
+						<textarea rows="5" placeholder='Your comment'></textarea>
+						<button type='submit' class='hero-btn red-btn'>POST COMMENT</button>
+					</form>
+				</div>
+
+			</div>
+			<div class="blog-right">
+				<h3>Post Categories</h3>
+				<div>
+					<span>Business Analytics</span>
+					<span>21</span>
+				</div>
+				<div>
+					<span>Data Science</span>
+					<span>28</span>
+				</div>
+				<div>
+					<span>Machine Learning</span>
+					<span>15</span>
+				</div>
+				<div>
+					<span>Computer Science</span>
+					<span>34</span>
+				</div>
+				<div>
+					<span>AutoCAD</span>
+					<span>42</span>
+				</div>
+				<div>
+					<span>Journalism</span>
+					<span>22</span>
+				</div>
+				<div>
+					<span>Commerce</span>
+					<span>30</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class='footer'>
+		<h4>About Us</h4>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit assumenda <br> aliquid laboriosam quidem
+			mollitia veritatis adipisci totam fugit dignissimos.
+		</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>
+			Made with <i class="fa fa-heart-o"></i> by XredWorm
+		</p>
+	</section>
+
+	<!-- JavaScript for Toggle Menu -->
+	<script>
+
+		var navLinks = document.getElementById("navLinks")
+
+		function showMenu() {
+			navLinks.style.right = '0'
+		}
+		function hideMenu() {
+			navLinks.style.right = '-200px'
+		}
+
+	</script>
+</body>
+
+</html>
